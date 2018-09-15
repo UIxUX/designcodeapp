@@ -19,6 +19,8 @@ body {
   background: url('../images/wallpaper3.jpg');
   background-size: cover;
   background-position: center;
+
+  position: relative;
 }
 
 .HeroGroup {
@@ -92,5 +94,25 @@ body {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+.Hero svg {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .Hero .Logos {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
