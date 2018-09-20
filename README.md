@@ -1,3 +1,7 @@
+<h1 align="center">
+Development of a demo app by which I learn React & GraphQL.
+</h1>
+
 <p align="center">
   <a href="https://next.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
